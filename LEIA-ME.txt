@@ -1,0 +1,30 @@
+NOIS É DA ROÇA STUDIO — VERSÃO WEB 1.0
+
+COMO USAR NO CELULAR
+1. Extraia o ZIP em um computador ou gerenciador de arquivos que consiga extrair ZIP.
+2. Para abrir como site instalado/PWA e permitir funcionamento offline, publique os arquivos em um serviço de hospedagem HTTPS.
+3. Abra o endereço publicado no Google Chrome do Moto G35 5G.
+4. No Chrome, menu ⋮ > Adicionar à tela inicial (ou Instalar app, quando disponível).
+
+TESTE LOCAL
+Abra index.html em navegador moderno. Algumas funções, como Service Worker/PWA, só funcionam em HTTPS ou localhost.
+
+O QUE FUNCIONA
+- Importar vários vídeos locais e ordenar/remover clipes.
+- Pré-visualizar clipes.
+- Ajustar trecho do clipe selecionado.
+- Sobrepor texto, cor, tamanho e posição.
+- Selecionar formato vertical, horizontal ou quadrado.
+- Adicionar música de fundo e ajustar volume.
+- Exportar vídeo WebM via MediaRecorder/canvas.
+- Criar roteiro, títulos e hashtags com modelos locais.
+- Abrir pesquisas públicas de YouTube, TikTok e web.
+- Registrar observações do Radar manualmente.
+- Salvar configurações de projetos no navegador e importar/exportar backup JSON.
+
+LIMITAÇÕES IMPORTANTES
+Esta é uma versão web funcional inicial, não um editor profissional completo equivalente ao CapCut. A exportação é WebM e depende do suporte do navegador; teste primeiro com clipes curtos. A exportação atual trabalha com o clipe selecionado e o trecho definido, não faz renderização final de toda a sequência de vários clipes. A música pode depender das permissões de reprodução do navegador. Arquivos grandes podem exceder a memória do celular.
+
+Não há IA generativa online conectada, transcrição automática de fala, sincronização em nuvem, publicação automática, nem coleta automática de métricas/concorrentes. O Radar abre buscas públicas e guarda observações informadas por você. Para integrar APIs reais de IA e plataformas sociais será necessário configurar serviços, credenciais, permissões e um backend seguro. Não insira chaves secretas no HTML.
+
+O app não envia seus vídeos para um servidor: a edição e a exportação acontecem no navegador.
