@@ -1,3 +1,5 @@
+NOIS É DA ROÇA STUDIO — VERSÃO 1.1
+
 NOIS É DA ROÇA STUDIO — VERSÃO WEB 1.0
 
 COMO USAR NO CELULAR
@@ -28,3 +30,12 @@ Esta é uma versão web funcional inicial, não um editor profissional completo 
 Não há IA generativa online conectada, transcrição automática de fala, sincronização em nuvem, publicação automática, nem coleta automática de métricas/concorrentes. O Radar abre buscas públicas e guarda observações informadas por você. Para integrar APIs reais de IA e plataformas sociais será necessário configurar serviços, credenciais, permissões e um backend seguro. Não insira chaves secretas no HTML.
 
 O app não envia seus vídeos para um servidor: a edição e a exportação acontecem no navegador.
+
+
+ATUALIZAÇÃO 1.1
+- Inclui recomendações locais de estilo musical por tipo de vídeo e plataforma.
+- Inclui atalhos para bibliotecas oficiais do YouTube, Meta e TikTok.
+- Inclui controle de velocidade e filtros de imagem aplicados ao monitor/exportação.
+- As recomendações musicais são regras locais; não são uma IA online conectada.
+- Confira as licenças de cada faixa: autorização em uma plataforma não garante uso em outra.
+- Para publicar a atualização no GitHub Pages, substitua index.html e sw.js pelos arquivos desta versão.
